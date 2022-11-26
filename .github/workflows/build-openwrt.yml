@@ -7,18 +7,19 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-
+#工作流程的名称
 name: Build OpenWrt
-
+#触发事件
 on:
   repository_dispatch:
+  #手动
   workflow_dispatch:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-
+#变量
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
