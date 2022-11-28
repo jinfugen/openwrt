@@ -11,8 +11,8 @@
 name: Build OpenWrt
 #触发事件
 on:
+ #手动
   repository_dispatch:
-  #手动
   workflow_dispatch:
     inputs:
       ssh:
