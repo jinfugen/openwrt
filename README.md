@@ -1,7 +1,7 @@
-相关参数
-默认地址:92.168.8.1
-默认账户:root
-默认密码:无
+## 相关参数
+1. 默认地址:`10.10.0.253`
+2. 默认账户:`root`
+3. 默认密码:`无`
 
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
