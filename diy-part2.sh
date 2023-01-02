@@ -15,3 +15,5 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 # Clear the login password
 #sed -i 's/password//g' /package/lean/default-settings/files/zzz-default-settings
 sed -i '/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF./ d' package/lean/default-settings/files/zzz-default-settings
+#关闭串口跑码
+sed -i 's/console=tty0//g'  target/linux/x86/image/Makefile
